@@ -42,7 +42,7 @@ const moveToCorrectPlace = (change, maxValue) => (position) => {
   if (change === 'decrease' && position !== 0) {
     return position - 1;
   }
-  console.log('Invalid position values');
+  console.log('Invalid move to push robot off the table');
   return position;
 };
 

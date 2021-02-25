@@ -26,11 +26,11 @@ console.log('- rotate the robot 90 degrees to the right');
 console.log('REPORT'.bold.underline);
 console.log('- report current position and facing direction');
 
-console.log();
-console.log('----------------------------------------------------------------------------------');
-console.log();
+console.log('')
+console.log('Please note the following');
+console.log('')
 console.log('Table size is 5x5');
-console.log('Illegal commands are ignored.');
+console.log('Illegal commands are ignored');
 console.log('First command must be PLACE');
 console.log();
 
