@@ -10,7 +10,7 @@
     "lint": "eslint src/**/*.js src/*.js"
   },
   "author": "apaila",
-  "license": "MIT",
+  "license": "Apache License 2.0",
   "devDependencies": {
     "eslint": "^7.20.0",
     "eslint-config-airbnb-base": "^14.2.1",
