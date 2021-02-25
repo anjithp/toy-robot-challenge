@@ -11,7 +11,7 @@ const rl = readline.createInterface({
 // prepare redux store(for state management)
 const store = prepareStore();
 
-console.log('Welcome to robot simulation demo.'.green.red);
+console.log('Welcome to robot simulation demo.'.blue);
 console.log('');
 console.log('Valid commands:'.bold);
 console.log('');

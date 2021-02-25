@@ -162,6 +162,6 @@ export const report = (state) => {
   if (!state.get('isPlaced')) {
     return state;
   }
-  console.log(`X cordinate is ${state.getIn(['position', 'x'])} and Y is ${state.getIn(['position', 'y'])} and direction is ${state.get('facing')}`);
+  console.log(`${state.getIn(['position', 'x'])},${state.getIn(['position', 'y'])},${state.get('facing')}`);
   return state.update('noOfReports', 0, (oldValue) => oldValue + 1);
 };
